@@ -1,0 +1,342 @@
+
+.text-main{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.text-nav{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 1.5rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+.nav-link{
+    color: white;
+}
+
+.section1{
+    background-image: url(./assets/main-bg.jpg), radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 5.188rem;
+    text-align: center;
+    letter-spacing: 0.188rem;
+    text-transform: uppercase;
+    color: white;
+    justify-content: center;
+}
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.button-play{
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.scroll-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position:absolute;
+    bottom: 1rem;
+}
+
+.section2{
+    background-image: url(./assets/the-games-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.subtitle2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.carousel-control-prev{
+    margin-left: -6rem;
+}
+.carousel-control-next{
+    margin-right: -6rem;
+}
+.carousel-control-prev-icon{
+    background-image: url(./assets/switch-left.svg);
+}    
+.carousel-control-next-icon{
+    background-image: url(./assets/switch-right.svg);
+} 
+
+.section3{
+    background-image: url(./assets/features.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.title3{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+.subtitle3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.section3 ul{
+    list-style: url(./assets/ellipse-outline.svg);
+}
+
+.section4{
+    background-image: url(./assets/requirements.png), radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+.subtitle4{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.table-style{
+    border: 1px solid #9797975e;
+}
+
+.section5{
+    background-image: url(./assets/top-score-bg.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-section5{
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.card-review{
+    background: rgba(255, 255, 255, 0.069);
+    border-radius: 10px; 
+    padding-top: 0.6rem;
+    max-width: 28rem;
+}
+.profile-review{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+.profile-details span {
+        font-weight: 300;
+        font-size: 13px;
+}
+.icon-review{
+    margin-inline-start: auto;
+}
+.date-review{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.section6{
+    background-image: url(./assets/newsletter.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title6{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.subtitle6{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.button-subscribe{
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+.form-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff94;
+}
+.form-email{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFB548;
+    background: rgba(255, 255, 255, 0.08);
+    border-style: none;
+}
+.img-skull{
+    background : radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
+}
+
+.footer-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-link a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.copyright{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-left: 3rem;
+}
+@media only screen and (max-width: 768px){
+    .text-nav{
+        font-size: 0.6rem;
+        padding: 0.5rem;
+    }
+    .logo{
+        font-size: 0.8rem;
+    }
+    .title{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .subtitle{
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+    }
+    .button-play{
+        margin-top: 0.75rem;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+    }
+}
+@media only screen and (max-width: 425px){
+    .text-nav{
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+    .logo{
+        font-size: 0.8rem;
+    }
+    .title{
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    .subtitle{
+        font-size: 0.6rem;
+        margin-top: 0.1rem;
+        padding: 0.1rem;
+    }
+    .button-play{
+        margin-top: 0.5rem;
+        padding: 0.25rem;
+        font-size: 0.5rem;
+    }
+}
